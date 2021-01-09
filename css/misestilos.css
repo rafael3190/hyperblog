@@ -20,3 +20,20 @@ body{
 {
     font-size: 20px;
 }
+
+#cabecera
+{
+   background: #88F;
+   color: #ddd;
+   font-weight: bold;
+    margin: 0;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0, 0)  ;
+   padding: 0.5rem;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.5em;
+}
