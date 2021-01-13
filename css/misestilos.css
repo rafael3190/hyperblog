@@ -4,6 +4,7 @@ body{
     color: #333;
     font-size: 16px;
     padding: 0;
+    background: black;
     margin: 0;
 }
 
@@ -23,12 +24,18 @@ body{
 
 #cabecera
 {
+background: url("../misimagenes/cohete.jpg") 10px 10px ;
+box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
    background: #88F;
    color: #ddd;
    font-weight: bold;
     margin: 0;
-    box-shadow: 0px 5px 30px 0px rgba(0,0,0, 0)  ;
-   padding: 0.5rem;
+   padding: 0.5rem 0 0.5em 2em;
+}
+
+#cabecera #logo{
+    width: 20px;
+    vertical-align: center;
 }
 
 #cabecera #tagline
@@ -36,4 +43,8 @@ body{
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.5em;
+}
+
+#post{
+    padding: 1em;
 }
