@@ -37,3 +37,10 @@ body{
     font-weight: normal;
     font-size: 0.5em;
 }
+
+
+#footer{
+    background: yellow;
+    color: red;
+    text-align: center;
+}
